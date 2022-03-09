@@ -1,0 +1,474 @@
+.container {
+  width: 33.75rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainContainer {
+  background-color: black;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.containerHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  width: 30.24rem;
+  position: relative;
+}
+.heading {
+  font-family: poppins;
+  font-weight: 700;
+  line-height: 34.5px;
+  color: #070602;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#custom-switch-one {
+  background-color: #f8c400 !important;
+  border: transparent;
+}
+#custom-switch-two {
+  margin-top: -10px !important;
+}
+.switchIcon {
+  display: flex;
+  width: 10rem;
+  margin-top: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  font-family: poppins;
+  font-weight: 600;
+
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #808080;
+}
+.Cancelbutton {
+  position: absolute;
+  right: 1px;
+}
+.headingSwitch {
+  display: flex;
+}
+
+input {
+  background-color: #f9fafb;
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family: poppins;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: right;
+  border: 2px solid #ececec;
+}
+
+.firstInputContainer {
+  width: 30.24rem;
+  max-width: 100%;
+}
+.secondInput {
+  width: 30.24rem;
+  max-width: 100%;
+}
+#firstInput {
+  height: 3.75rem;
+  width: 30.24rem;
+  max-width: 100%;
+}
+input[type="text"] {
+  padding-right: 10px;
+}
+
+.buttonMoney {
+  display: flex;
+}
+
+.buttonContainer {
+  margin-top: 1rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+  width: 30.24rem;
+  max-width: 100%;
+}
+
+.buttonContainer span {
+  font-family: poppins;
+  font-weight: 600;
+  color: #a8a8a8;
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  right: 5px;
+}
+.button0 {
+  background-color: #fff9aa;
+  padding: 9px 23px 9px 23px;
+  border: transparent;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.button1,
+.button2 {
+  background-color: #f8f8f8;
+  padding: 9px 23px 9px 23px;
+  border: transparent;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.buttonDays0 {
+  background-color: #fceb74;
+  border: 1px solid #fed700;
+
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 600;
+  border-radius: 30px;
+  width: 6.5rem;
+}
+
+.buttonDays1,
+.buttonDays2,
+.buttonDays3,
+.buttonDays4 {
+  background-color: #f8f8f8;
+  width: 6.5rem;
+  border: transparent;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #a3a3a3;
+  border-radius: 30px;
+}
+.days,
+.tierSelect {
+  width: 30.24rem;
+  max-width: 100%;
+  display: flex;
+  min-height: 2.68rem;
+}
+.acceleratedPay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1.5rem;
+  max-width: 100%;
+  width: 30.24rem;
+}
+.form-check-input {
+  width: 2.2rem !important;
+  height: 1.3rem !important;
+}
+.selectTier {
+  font-family: poppins;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 21px;
+  color: #a3a3a3;
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+  width: 30.24rem;
+}
+.secondInput {
+  position: relative;
+}
+.secondInput input {
+  width: 30.24rem;
+  height: 3.7rem;
+  max-width: 100%;
+}
+
+.acceleratedPay h3 {
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.timeFrame {
+  width: 30.24rem;
+  max-width: 100%;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.tier0,
+.tier1,
+.tier2,
+.tier4 {
+  background-color: #f8f8f8;
+  border: transparent;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 600;
+  border-radius: 30px;
+  width: 6.5rem;
+  color: #a3a3a3;
+  margin-left: 10px;
+}
+
+.tier3 {
+  background-color: #fceb74;
+  border: 1px solid #fed700;
+
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 600;
+  border-radius: 30px;
+  width: 6.5rem;
+  margin-left: 10px;
+}
+
+#myInput:focus {
+  border: solid 2px #fde100 !important;
+  outline: none !important;
+}
+.icon {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  height: 2rem;
+  width: 2.5rem;
+  color: #a8a8a8;
+}
+.currentRateHeading {
+  text-align: right;
+  font-family: poppins;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 21px;
+  color: #a3a3a3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  width: 30.24rem;
+}
+.currentRateConversion {
+  margin-top: 0.5rem;
+  max-width: 100%;
+  width: 30.24rem;
+}
+.currentRateConversion h6 {
+  text-align: right;
+  color: #a8a8a8;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.buttonFinal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 30.24rem;
+}
+.apply {
+  border-radius: 15px;
+  padding: 14px 80px 14px 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  font-weight: 500;
+  border-radius: 20px;
+  border: transparent;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.cancel {
+  border-radius: 15px;
+  padding: 14px 80px 14px 80px;
+  background-color: #ffffff;
+  color: #666666;
+  text-align: center;
+  font-family: poppins;
+  font-weight: 500;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 18px;
+  border: solid 1px grey;
+}
+
+.showDetails {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #070602;
+  margin-top: 2rem;
+  width: 33.75rem;
+  max-width: 100%;
+}
+.headLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 30.24rem;
+}
+.headLine #apy {
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 21px;
+  font-size: 14px;
+  color: #070602;
+}
+
+.headLine .percentage {
+  font-family: poppins;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 22px;
+  color: #fac200;
+}
+
+ul {
+  margin-top: 2rem;
+  color: #a3a3a3;
+  font-family: poppins;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 15px;
+  max-width: 100%;
+  width: 30.24rem;
+}
+@media screen and (max-width: 480px) {
+  .containerHeading {
+    flex-direction: column;
+  }
+  .switchIcon {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .switchIcon img {
+    margin-top: -3px;
+  }
+  .headingSwitch span {
+    margin-top: 2px;
+  }
+  .selectTier {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .tierSelect {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tier0,
+  .tier1,
+  .tier2,
+  .tier3,
+  .tier4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .acceleratedPay {
+    flex-direction: column;
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .currentRateHeading,
+  .currentRateConversion h6 {
+    text-align: center;
+  }
+  .buttonFinal {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .apply,
+  .cancel {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .showDetails {
+    margin-bottom: 2rem;
+  }
+  .button0,
+  .button1,
+  .button2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .buttonContainer span {
+    top: -10px;
+  }
+  .timeFrame {
+    text-align: center;
+  }
+  .days {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttonDays0,
+  .buttonDays1,
+  .buttonDays2,
+  .buttonDays3,
+  .buttonDays4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .containerHeading,
+  .days,
+  .acceleratedPay,
+  .buttonContainer,
+  .selectTier,
+  .tierSelect,
+  .currentRateHeading,
+  .buttonFinal,
+  .headLine,
+  .timeFrame,
+  .secondInput,
+  .showDetails,
+  .firstInputContainer,
+  .currentRateConversion,
+  ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tier0,
+  .tier1,
+  .tier2,
+  .tier3,
+  .tier4 {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
